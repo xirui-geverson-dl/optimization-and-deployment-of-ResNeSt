@@ -29,11 +29,7 @@ There are two files in dataload file. CIFAR10 is used in model training for both
 - [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html)
 - [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-These two classic image classification datasets can be loaded easily from torchvision 
-```bash
-trainset = torchvision.datasets.CIFAR10(root='./data', train=True,
-                                        download=True, transform=transform)
-```
+These two classic image classification datasets can be loaded easily from torchvision
 
 ## Models
 
