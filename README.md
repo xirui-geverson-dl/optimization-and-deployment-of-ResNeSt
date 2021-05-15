@@ -1,2 +1,4 @@
 # optimization-and-deployment-of-ResNeSt
 Final project for 3033 Intro to deep learning systems
+## Abstract
+In  this  work,  we  first  implement  50-LayerSplit-Attention   Network   (ResNeSt50)   withoriginal bottleneck structure on classificationtask using CIFAR10 dataset.  To attempt opti-mizing the model, we innovatively implementsplit-attention technique on basic block struc-ture.  For comparison between two structures,both  ResNeSt50  models  are  trained  at  differ-ent  GPU  types.Then,  a  transfer  learning  ofboth models to the CIFAR100 dataset is doneto further verify comparison results.   For thedeployment analysis,  the winner model fromthe  previous  part  is  converted  and  deployedin both Pytorch and Caffe2 frameworks.   Af-ter model inferences, two frameworks are com-pared from aspects such as test accuracy, infer-ence time and model sizes.
