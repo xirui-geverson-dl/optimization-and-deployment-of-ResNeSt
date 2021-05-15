@@ -6,6 +6,6 @@ In this project, 50-LayerSplit-Attention Network (ResNeSt50) is initially implem
 <img width="793" alt="Screen Shot 2021-05-15 at 9 39 59 AM" src="https://user-images.githubusercontent.com/61107669/118344598-90291a00-b561-11eb-954e-5cb6ab179420.png">
 ## Getting Started
 ### Library
-* [Pytorch](https://pytorch.org)
+- [Pytorch](https://pytorch.org)
 * [ONNX](https://onnx.ai)
-* [Laravel](https://caffe2.ai/)
+* [Laravel](https://caffe2.ai)
