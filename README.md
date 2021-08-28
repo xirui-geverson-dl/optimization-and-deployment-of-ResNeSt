@@ -5,7 +5,7 @@ Final project for NYU CSCI-GA 3033-091 Introduction to Deep Learning Systems
 
 Group members: Haodong Ge, Xirui Fu
 ## Abstract
-In this project, 50-LayerSplit-Attention Network (ResNeSt50) is initially implemented with original bottleneck structure on classificationtask using CIFAR10 dataset. To attempt optimizing the model, we innovatively implement split-attention technique on basic block structure. For comparison between two structures,both ResNeSt50  models are trained at different GPU types.Then, a transfer learning of both models to the CIFAR100 dataset is done to further verify comparison results. For the deployment analysis,  the winner model from the previous part is  converted  and  deployedin both Pytorch and Caffe2 frameworks. After model inferences, two frameworks are compared from aspects such as test accuracy, infer-ence time and model sizes.
+In this project, 50-LayerSplit-Attention Network (ResNeSt50) is initially implemented with original bottleneck structure on classificationtask using CIFAR10 dataset. To attempt optimizing the model, we innovatively implement split-attention technique on basic block structure. For comparison between two structures,both ResNeSt50  models are trained at different GPU types.Then, a transfer learning of both models to the CIFAR100 dataset is done to further verify comparison results. For the deployment analysis,  the winner model from the previous part is  converted  and  deployed in both Pytorch and Caffe2 frameworks. After model inferences, two frameworks are compared from aspects such as test accuracy, inference time and model sizes.
 ## Diagram 
 <img width="793" alt="Screen Shot 2021-05-15 at 9 39 59 AM" src="https://user-images.githubusercontent.com/61107669/118344598-90291a00-b561-11eb-954e-5cb6ab179420.png">
 
@@ -53,7 +53,7 @@ These two classic image classification datasets can be loaded easily from torchv
 |          | K80 | P100 | V100 | Average | Transfer learning |
 |----------|-------------------|-------------------|-------------------|-------------------|-----------------|
 | Basic Block  | 0.8862               | 0.8923           | 0.8907            | 0.8897           | 0.6323             |
-| Bottleneck   | 0.8705              | 0.8742           | 0.8765            | 0.8737           | 6152             |
+| Bottleneck   | 0.8705              | 0.8742           | 0.8765            | 0.8737           | 0.6152             |
 
 * Training time (s/epoch)
 
